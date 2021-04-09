@@ -1,0 +1,41 @@
+#ifndef MONITOR_INCLUDED
+#define MONITOR_INCLUDED
+using namespace std;
+
+class Device {
+        bool pwr_;
+        bool d_;
+        bool m_;
+        bool g_;
+public:
+        Device ()
+        {
+            pwr_ = 0;
+            d_ = 0;
+            m_ = 0;
+            g_ = 0;
+        };
+        void change_pwr() {
+                            pwr_ = !pwr_;
+                            if (!pwr_)
+                                {
+                                    m_ = 0;
+                                    d_ = 0;
+                                    g_ = 0;
+                                }
+                            };
+        void change_d() {d_  = pwr_ ? !d_ : 0;};
+        void change_m() {if(pwr_)
+                            m_ = !m_;
+                         else
+                            m_= 0;
+                         };
+        void change_g() {g_  = pwr_ ? !g_ : 0;};
+
+        void status() {
+            cout << pwr_ << "\t" << d_ << "\t" << m_ << "\t" << g_ << "\n";
+        }
+};
+
+
+#endif // MONITOR_INCLUDED
