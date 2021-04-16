@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1618589776 source:/net/eniac.dcti.sut.ru/srv/nfs4/homes/homes/students/ikts92/ikts92n08/t34c/main.cpp
+	<iostream>
+	"perepheria.h"
+	"scaner.h"
+	"klaviatura1.h"
+	<string>
+
+1618590120 /net/eniac.dcti.sut.ru/srv/nfs4/homes/homes/students/ikts92/ikts92n08/t34c/include/perepheria.h
+
+1618588654 /net/eniac.dcti.sut.ru/srv/nfs4/homes/homes/students/ikts92/ikts92n08/t34c/include/scaner.h
+	<perepheria.h>
+
+1618589419 /net/eniac.dcti.sut.ru/srv/nfs4/homes/homes/students/ikts92/ikts92n08/t34c/include/klaviatura.h
+	<perepheria.h>
+
+1618588714 source:/net/eniac.dcti.sut.ru/srv/nfs4/homes/homes/students/ikts92/ikts92n08/t34c/src/klaviatura.cpp
+	"klaviatura.h"
+
+1618587130 source:/net/eniac.dcti.sut.ru/srv/nfs4/homes/homes/students/ikts92/ikts92n08/t34c/src/perefiria.cpp
+	"perefiria.h"
+
+1618587130 /net/eniac.dcti.sut.ru/srv/nfs4/homes/homes/students/ikts92/ikts92n08/t34c/include/perefiria.h
+
+1618587477 source:/net/eniac.dcti.sut.ru/srv/nfs4/homes/homes/students/ikts92/ikts92n08/t34c/src/perepheria.cpp
+	"perepheria.h"
+
+1618588655 source:/net/eniac.dcti.sut.ru/srv/nfs4/homes/homes/students/ikts92/ikts92n08/t34c/src/scaner.cpp
+	"scaner.h"
+
+1618587587 source:/net/eniac.dcti.sut.ru/srv/nfs4/homes/homes/students/ikts92/ikts92n08/t34c/src/tv.cpp
+	"tv.h"
+
+1618587586 /net/eniac.dcti.sut.ru/srv/nfs4/homes/homes/students/ikts92/ikts92n08/t34c/include/tv.h
+	<perepheria.h>
+
+1618590038 /net/eniac.dcti.sut.ru/srv/nfs4/homes/homes/students/ikts92/ikts92n08/t34c/include/klaviatura1.h
+	<string>
+	<perepheria.h>
+
+1618589729 source:/net/eniac.dcti.sut.ru/srv/nfs4/homes/homes/students/ikts92/ikts92n08/t34c/src/klaviatura1.cpp
+	"klaviatura1.h"
+
